@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "contacts-to-vcards"
+version = "0.1.0"
+description = ""
+authors = ["Michael Craig Jr <michael@michaelcraig.group>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.13"
+vobject = "^0.9.8"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
